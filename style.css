@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+
+.display {
+  display: flex;
+  flex-wrap: wrap;
+box-sizing: border-box;
+  background-color: #6d61a1;
+  width: 80vw;
+  min-height: 70vh;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  border:3px solid #EA4C89;
+  border-radius: 9px;
+}
+
+
+
+body {
+  background-color: #231E39;
+  font-family: Montserrat, sans-serif;
+  min-height: 100vh;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.search-wrapper{
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  align-content: center;
+  align-items: center;
+  margin: 0;
+
+
+
+}
+
+.search-input{
+
+  width: 25vw;
+  max-height: 3vh;
+
+  padding: 2vh;
+  border-radius: 8px;
+
+}
+
+h3 {
+	margin: 10px 0;
+}
+
+h6 {
+	margin: 5px 0;
+	text-transform: uppercase;
+}
+
+p {
+	font-size: 14px;
+	line-height: 21px;
+}
+
+.card-wrapper{
+   display:flex;
+}
+
+.card-container {
+	background-color: #231E39;
+	border-radius: 5px;
+	box-shadow: 0px 10px 20px -10px rgba(0,0,0,0.75);
+	color: #B3B8CD;
+	padding-top: 30px;
+	position: relative;
+	width: 250px;
+	max-width: 250px;
+   height:400px;
+	text-align: center;
+   padding: 20px;
+}
+
+
+.card-container .round {
+	border: 1px solid #03BFCB;
+	border-radius: 50%;
+	padding: 7px;
+}
+
+.button-wrapper{
+  width: 100%;
+display: flex;
+justify-content: center;
+gap:2vh;
+padding: 2vh;
+margin: 0;
+
+}
+
+
+.btn{
+  background-color: #EA4C89;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  width: 100px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+
+
+
+
+.btn:hover,
+.btn:focus {
+  background-color: #F082AC;
+}
