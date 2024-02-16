@@ -1,10 +1,10 @@
 <?php
 //Database connection.
 $con = MySQLi_connect(
-   "localhost", //Server host name.
-   "root", //Database username.
-   "", //Database password.
-   "users" //Database name or anything you would like to call it.
+   "localhost", //
+   "root", 
+   "", 
+   "users" 
 );
 //Check connection
 if (MySQLi_connect_errno()) {
